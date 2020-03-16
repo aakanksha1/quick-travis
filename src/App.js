@@ -8,7 +8,9 @@ import "./components/Sizes.css";
 import "./App.css";
 import ShoppingCart from './components/ShoppingCart';
 import CartProvider from './components/CartProvider';
-import { Button, Card, Row, Col, Container } from 'react-bootstrap';
+import { Button, Row, Col, Container } from 'react-bootstrap';
+
+//insert card back in afterwards
 
 //firebase imports
 import firebase from "firebase/app";
