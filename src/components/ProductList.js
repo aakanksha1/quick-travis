@@ -6,7 +6,7 @@ import { Row, Col, Container } from 'react-bootstrap';
 const ProductList = ({ products, inventory, setInventory }) => {
 	return (
 		<Container className = "product-container">
-			<Row className="product-list" data-test-id="listings-grid" >
+			<Row className="product-list" >
 				{products.map(product => (
 					<Col xs={12} sm={12} md={4} lg={4}>
 						<ProductCard product={product}
@@ -16,6 +16,7 @@ const ProductList = ({ products, inventory, setInventory }) => {
 				))}
 			</Row>
 		</Container>
+		// data-test-id="listings-grid"
 	);
 
 };
